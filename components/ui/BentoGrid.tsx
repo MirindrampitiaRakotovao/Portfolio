@@ -9,6 +9,7 @@ import Lottie from "react-lottie";
 import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -72,7 +73,7 @@ export const BentoGridItem = ({
       {id === 1 && (
         <div className="w-full h-full absolute">
         {img && (
-          <img
+          <Image
             src={img}
             alt={img}
             className={cn(imgClassName, ' object-center opacity-50')}

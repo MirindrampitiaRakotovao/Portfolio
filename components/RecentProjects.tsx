@@ -3,6 +3,7 @@ import React from 'react'
 import { PinContainer } from './ui/3d-pin'
 import { transform } from 'next/dist/build/swc'
 import { FaLocationArrow } from 'react-icons/fa'
+import Image from 'next/image'
 
 const RecentProjects = () => {
   return (
@@ -18,9 +19,9 @@ const RecentProjects = () => {
                 <PinContainer title={link} href={link}>
                     <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                         <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                            <img src="/bg.png" alt="bg-img"/>
+                            <Image src="/bg.png" alt="bg-img"/>
                         </div>
-                        <img 
+                        <Image 
                             src={img}
                             alt={title}
                             className="z-10 absolute bottom-0"
@@ -42,7 +43,7 @@ const RecentProjects = () => {
                                     transform: `translateX(-${5 * index * 2}px)`
                                 }}
                                 >
-                                    <img
+                                    <Image
                                         src={icon} alt={icon} className="p-2"
                                     />
                                 </div>
@@ -50,7 +51,7 @@ const RecentProjects = () => {
                         </div> 
 
                         <div className="flex justify-center items-center">
-                            <p className="flex lg:text-xl md:text-xs text-sm text-purple"> Voir l'aperçu </p>
+                            <p className="flex lg:text-xl md:text-xs text-sm text-purple"> Voir un aperçu </p>
                             <FaLocationArrow className="ms-3" color="#CBACF93"/>
                         </div>
                     </div>

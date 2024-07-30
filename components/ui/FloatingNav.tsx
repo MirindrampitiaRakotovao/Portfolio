@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import {
   motion,
@@ -10,15 +11,17 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { FaSun, FaMoon } from "react-icons/fa";
 
+interface NavItem {
+  name: string;
+  link: string;
+  icon?: JSX.Element;
+}
+
 export const FloatingNav = ({
   navItems,
   className,
 }: {
-  navItems: {
-    name: string;
-    link: string;
-    icon?: JSX.Element;
-  }[];
+  navItems: NavItem[];
   className?: string;
 }) => {
   const { scrollYProgress } = useScroll();
@@ -26,9 +29,11 @@ export const FloatingNav = ({
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
-    // Check if current is not undefined and is a number
+    // Ensure current is defined and is a number
     if (typeof current === "number") {
-      let direction = current - scrollYProgress.getPrevious();
+      const previous = scrollYProgress.getPrevious();
+      // Ensure previous is defined
+      const direction = previous !== undefined ? current - previous : 0;
 
       if (scrollYProgress.get() < 0.05) {
         setVisible(false);
@@ -65,7 +70,7 @@ export const FloatingNav = ({
       >
         {navItems.map((navItem, idx) => (
           <Link
-            key={`link=${idx}`}
+            key={idx} // Using index as key here is fine since items are unlikely to change order
             href={navItem.link}
             className={cn(
               "relative items-center flex space-x-1 text-neutral-600 dark:text-neutral-50 dark:hover:text-neutral-300 hover:text-neutral-500"
