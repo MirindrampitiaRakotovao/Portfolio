@@ -107,7 +107,7 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                     <div className="me-3">
-                        <Image
+                        <img
                             src="/chef.png"
                             alt="profile"
                             width={50}

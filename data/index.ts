@@ -155,42 +155,42 @@ export const navItems = [
       title: "Développeur FullStack",
       desc: " 2023 - à ce jour: Développeur FullStack JavaScript chez iSeven Studio",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/iSeven.jpg",
     },
     {
       id: 2,
       title: "Designer Graphique Sénior",
       desc: "2024: Conception affichage de publicités chez PINK STORE & GAMING",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "/PINK.jpg",
     },
     {
       id: 3,
-      title: "Etudiant en Troisième Année",
-      desc: "2023 - 2024: Troisième Année de Licence Professionnelle ENI Fianarantsoa",
+      title: "Etudiant en Troisième Annee",
+      desc: "2023 - 2024: Troisième Annee de Licence Professionnelle ENI Fianarantsoa",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      thumbnail: "/ENI.png",
     },
     {
       id: 4,
       title: "Designer Graphique",
       desc: "2023 - Avril 2024: Designer graphique AEENI Fianarantsoa (ENIHoopers, ENIHotesse)",
       className: "md:col-span-2",
-      thumbnail: "/exp2.svg",
+      thumbnail: "/AEENI.png",
     },
     {
       id: 5,
       title: "Développeur FullStack",
       desc: "Sept 2023 - Dec 2023: Développeur stagiaire au bureau de la Région Haute Matsiatra Fianarantsoa",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/Fianarantsoa.png",
     },
     {
       id: 6,
       title: "Club Multimédia",
       desc: "2024: Président du Club Multimédia ENI",
       className: "md:col-span-2",
-      thumbnail: "/exp2.svg",
+      thumbnail: "/multimedia.png",
     },
   ];
 
@@ -228,7 +228,7 @@ export const navItems = [
       title: "Aceternity UI",
       desc: "Interface Utilisateur",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/Aceternity.png",
     },
     {
       id: 6,

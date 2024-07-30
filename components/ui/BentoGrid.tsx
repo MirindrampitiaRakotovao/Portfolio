@@ -73,10 +73,12 @@ export const BentoGridItem = ({
       {id === 1 && (
         <div className="w-full h-full absolute">
         {img && (
-          <Image
+          <img
             src={img}
             alt={img}
             className={cn(imgClassName, ' object-center opacity-50')}
+            width={200}
+            height={200}
           />
         )}
       </div>

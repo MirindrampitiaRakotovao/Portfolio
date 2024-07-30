@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="relative my-20 z-10 max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         {/* Photo alignée en haut de Bonjour en mode téléphone */}
         <div className="flex justify-center items-center mb-10 md:mb-0 md:w-1/2 md:-ml-14 md:-mt-10">
-          <Image
+          <img
             src="/Portfolio.png" // Remplacez par le chemin de votre photo
             alt="Photo"
             width={500} // Ajustez la largeur selon vos besoins
@@ -32,7 +32,7 @@ const Hero = () => {
 
         {/* Texte et bouton alignés à gauche */}
         <div className="flex flex-col items-start justify-center md:w-1/2">
-          <h2 className="uppercase tracking-widest text-4xl font-bold text-center ml-28 -mt-20 text-blue-100 max-w-80 mb-4 md:mb-8 md:ml-40">
+          <h2 className="md:text-left uppercase tracking-widest text-4xl font-bold text-center ml-28 -mt-20 text-blue-100 max-w-80 mb-4 md:mb-8 md:ml-40">
             Bonjour👋
           </h2>
 
