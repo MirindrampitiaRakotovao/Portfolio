@@ -9,7 +9,7 @@ export const navItems = [
     {
       id: 1,
       title: "Passionné du développement web, du développement mobile et du design.",
-      description: " Un étudiant en troisième année à l'Ecole Nationale d'Informatique ",
+      description: " Un étudiant en troisième année du ENI ",
       className: "lg:col-span-2 md:col-span- md:row-span-2 lg:min-h-[20vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
@@ -28,7 +28,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Voulez-vous qu'on commence un nouveau projet ensemble?",
+      title: "Voulez-vous commencer un nouveau projet ensemble avec moi",
       description: "",
       className: "lg:col-span-1 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -68,7 +68,7 @@ export const navItems = [
     {
       id: 4,
       title: "MyHotel.com",
-      des: "Une application mobile conçu durant le projet technologie mobile à l'école",
+      des: "Une application mobile conçu durant le projet technologie mobile en classe",
       img: "/MyHotel.png",
       iconLists: ["/ReactNative.png","/Firebase.png", "/Figma.png"],
       link: "",
@@ -86,33 +86,33 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborer avec Mirindrampitia nous a vraiment beaucoup aidé dans la réalisation de l'application. Il est sérieux et aussi autodidacte",
+        "Collaborer avec Mirindrampitia nous a vraiment beaucoup aidé dans la réalisation de cette application. Il est sérieux et aussi autodidacte",
       name: "XXX",
-      title: "Directeur de Projet de l'entreprise",
+      title: "Directeur de Projet",
     },
     {
       quote:
-        "Collaborer avec Mirindrampitia nous a vraiment beaucoup aidé dans la réalisation de l'application. Il est sérieux et aussi autodidacte",
+        "Collaborer avec Mirindrampitia nous a vraiment beaucoup aidé dans la réalisation de cette application. Il est sérieux et aussi autodidacte",
       name: "XXX",
-      title: "Directeur de Projet de l'entreprise",
+      title: "Directeur de Projet",
     },
     {
       quote:
-        "Collaborer avec Mirindrampitia nous a vraiment beaucoup aidé dans la réalisation de l'application. Il est sérieux et aussi autodidacte",
+        "Collaborer avec Mirindrampitia nous a vraiment beaucoup aidé dans la réalisation de cette application. Il est sérieux et aussi autodidacte",
       name: "XXX",
-      title: "Directeur de Projet de l'entreprise",
+      title: "Directeur de Projet",
     },
     {
       quote:
-        "Collaborer avec Mirindrampitia nous a vraiment beaucoup aidé dans la réalisation de l'application. Il est sérieux et aussi autodidacte",
+        "Collaborer avec Mirindrampitia nous a vraiment beaucoup aidé dans la réalisation de cette application. Il est sérieux et aussi autodidacte",
       name: "XXX",
-      title: "Directeur de Projet de l'entreprise",
+      title: "Directeur de Projet",
     },
     {
       quote:
-      "Collaborer avec Mirindrampitia nous a vraiment beaucoup aidé dans la réalisation de l'application. Il est sérieux et aussi autodidacte",
-    name: "XXX",
-    title: "Directeur de Projet de l'entreprise",
+        "Collaborer avec Mirindrampitia nous a vraiment beaucoup aidé dans la réalisation de cette application. Il est sérieux et aussi autodidacte",
+      name: "XXX",
+      title: "Directeur de Projet",
     },
   ];
   
@@ -160,14 +160,14 @@ export const navItems = [
     {
       id: 2,
       title: "Designer Graphique Sénior",
-      desc: "2024: Conception d'affiche de publicités chez PINK STORE & GAMING",
+      desc: "2024: Conception affichage de publicités chez PINK STORE & GAMING",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
       title: "Etudiant en Troisième Année",
-      desc: "2023 - 2024: Troisième Année de Licence Professionnelle à l'ENI Fianarantsoa",
+      desc: "2023 - 2024: Troisième Année de Licence Professionnelle ENI Fianarantsoa",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
@@ -188,7 +188,7 @@ export const navItems = [
     {
       id: 6,
       title: "Club Multimédia",
-      desc: "2024: Président du Club Multimédia de l'Ecole Nationale d'Informatique",
+      desc: "2024: Président du Club Multimédia ENI",
       className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
